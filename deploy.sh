@@ -13,6 +13,7 @@ cd docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-
+git branch -m master main
 git push -f git@github.com:cnchef/webpage.git main::gh-pages 
 cd -
+rm -rf docs/.vuepress/dist
