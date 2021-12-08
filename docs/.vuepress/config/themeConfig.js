@@ -47,8 +47,8 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: 'xugaoyi', // 必需
-    link: 'https://github.com/xugaoyi', // 可选的
+    name: 'chenf', // 必需
+    link: 'https://github.com/cnchef', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
@@ -63,12 +63,12 @@ module.exports = {
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:894072666@qq.com',
+        link: 'mailto:000000000@qq.com',
       },
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/xugaoyi',
+        link: 'https://github.com/cnchef',
       },
       {
         iconClass: 'icon-erji',
@@ -79,9 +79,9 @@ module.exports = {
   },
   footer: {
     // 页脚信息
-    createYear: 2019, // 博客创建年份
+    createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'Chenf | <a href="https://github.com/cnchef/webpage/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }
