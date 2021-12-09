@@ -5,12 +5,21 @@ module.exports = [
     text: '前端',
     link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
-      // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
+      // 说明：以下所有link的值只是在相应.md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
+      // 可使用random脚本生成随机字符串作为每个目录的唯一id，或者使用MD5计算每个文件的MD5值作为id
       {
         text: '前端文章',
         items: [
           { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
           // { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
+        ],
+      },
+      {
+        text: '页面',
+        link: '/ui/',
+        items: [
+          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
         ],
       },
       {
@@ -42,25 +51,19 @@ module.exports = [
     ],
   },
   {
-    text: '页面',
-    link: '/ui/',
-    items: [
-      { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-      { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-    ],
-  },
-  {
     text: '开发',
     link: '/techcode/',
     items: [
-      { text: '语言1', link: '/pages/9a7ee40fc232253e/' },
-      { text: '语言2', link: '/pages/4c778760be26d8b3/' },
-      { text: '语言3', link: '/pages/117708e0af7f0bd9/' },
-      { text: '语言4', link: '/pages/41f87d890d0a02af/' },
+      { text: 'Golang', link: '/pages/xq4lfnvhmvrpopy2/' },
+      { text: 'Python', link: '/pages/agpduaa6lqnwifvx/' },
+      { text: 'Java', link: '/pages/s6hp2iopfrd3o7o3/' },
+      { text: 'JavaScript', link: '/pages/k4br376hiynk852e/' },
+      { text: 'Shell', link: '/pages/njye2ris6wzxashi/' },
+      { text: 'C/C++', link: '/pages/5bm2dlo6a0d03z8s/' },
     ],
   },
   {
-    text: '技术',
+    text: '工具',
     link: '/technology/',
     items: [
       { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
