@@ -53,8 +53,8 @@ module.exports = {
   blogger: {
     // 博主信息，显示在首页侧边栏
     avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-    name: 'Evan Xu',
-    slogan: '前端界的小学生',
+    name: 'Chef',
+    slogan: '前端界的小白',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
@@ -63,7 +63,7 @@ module.exports = {
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:000000000@qq.com',
+        link: 'mailto:chenfwulei@gmail.com',
       },
       {
         iconClass: 'icon-github',
@@ -81,7 +81,8 @@ module.exports = {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'Chenf | <a href="https://github.com/cnchef/webpage/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      '| <a href="https://icp.chinaz.com/home/info?host=chenfyu.com">网站备案号：豫ICP备15033927号-1</a> | <a href="https://chenfyu.com">Chenf</a> | <a href="https://github.com/cnchef/webpage/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+
   },
   htmlModules // 插入hmtl(广告)模块
 }

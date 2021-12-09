@@ -53,10 +53,10 @@ module.exports = [
     text: '开发',
     link: '/techcode/',
     items: [
-      { text: '语言1', link: '/pages/9a7ee40fc232253e1/' },
-      { text: '语言2', link: '/pages/4c778760be26d8b32/' },
-      { text: '语言3', link: '/pages/117708e0af7f0bd93/' },
-      { text: '语言4', link: '/pages/41f87d890d0a02af4/' },
+      { text: '语言1', link: '/pages/9a7ee40fc232253e/' },
+      { text: '语言2', link: '/pages/4c778760be26d8b3/' },
+      { text: '语言3', link: '/pages/117708e0af7f0bd9/' },
+      { text: '语言4', link: '/pages/41f87d890d0a02af/' },
     ],
   },
   {
