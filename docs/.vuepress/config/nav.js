@@ -57,9 +57,18 @@ module.exports = [
       { text: 'Golang', link: '/pages/xq4lfnvhmvrpopy2/' },
       { text: 'Python', link: '/pages/agpduaa6lqnwifvx/' },
       { text: 'Java', link: '/pages/s6hp2iopfrd3o7o3/' },
-      { text: 'JavaScript', link: '/pages/k4br376hiynk852e/' },
       { text: 'Shell', link: '/pages/njye2ris6wzxashi/' },
       { text: 'C/C++', link: '/pages/5bm2dlo6a0d03z8s/' },
+    ],
+  },
+  {
+    text: '操作系统',
+    link: '/systemos/',
+    items: [
+      { text: 'Linux', link: '/pages/bayz9mxytccxs5ha/' },
+      { text: 'Windows', link: '/pages/2rum70nx7bx75ltd/' },
+      { text: 'macOS', link: '/pages/dq3syfafe88gvfvj/' },
+      { text: 'Unix', link: '/pages/iy5j4f2jtkmlhfsw/' },
     ],
   },
   {
